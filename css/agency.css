@@ -752,7 +752,7 @@ body {
   float: left;
   width: 300px;
   height: 300px;
-  border: 5px solid gray;
+  border: 5px solid #f1f1f1;
 }
 .j_info {
   margin-top: 0px;
@@ -766,4 +766,30 @@ body {
 }
 .j_info_value {
   padding: 0px;
+}
+.j_res_img {
+  position: relative;
+  margin-left: 50%;
+}
+.j_res_img_a {
+  height: 112px;
+  width: 112px;
+  margin-left: -56px;
+}
+.j_scroll {
+  font-weight: 400;
+  width: 70px;
+  height: 70px;
+  margin-top: 40px;
+  padding: 7px 16px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  font-size: 40px;
+  color: #fff;
+  background: 0 0;
+}
+a.j_scroll:visited,
+a.j_scroll:hover,
+a.j_scroll:active {
+  color: #fec503;
 }
